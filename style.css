@@ -139,6 +139,7 @@ input[type='number'] {
   font-size: 20px;
   line-height: 20px;
   padding: 2px 5px;
+  border-radius: 6px;
   position: absolute;
   top: 50%;
   left: 0;
@@ -149,4 +150,14 @@ input[type='number'] {
 
 .transactions li:hover .delete-btn {
   opacity: 1;
+}
+
+@media (max-width: 576px){
+  body{
+    padding: 0 20px;
+  }
+  .delete-btn{
+    opacity: 1;
+  }
+  
 }
